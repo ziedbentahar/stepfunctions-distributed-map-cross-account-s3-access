@@ -1,0 +1,12 @@
+{
+  "name": "step-functions-distributed-map-cross-account-s3-access",
+  "scripts": {
+    "build": "tsc && node esbuild.config.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.429.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.6"
+  }
+}
